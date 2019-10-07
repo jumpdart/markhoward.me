@@ -6,6 +6,15 @@ module.exports = {
     author: `@jumpdart`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-less`,
+      options: {
+        javascriptEnabled: true,
+        modifyVars: {
+          'primary-color': '#BADA55'
+        }
+      }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
