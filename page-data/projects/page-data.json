@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-pages-projects-js","path":"/projects/","webpackCompilationHash":"ba8c5d01fa22d5d950b7","result":{"data":{"allProjectsJson":{"edges":[{"node":{"name":"sample project","description":"blah blah"}},{"node":{"name":"some other project","description":"project description"}}]}},"pageContext":{"isCreatedByStatefulCreatePages":true}}}
+{"componentChunkName":"component---src-pages-projects-js","path":"/projects/","result":{"pageContext":{}}}
