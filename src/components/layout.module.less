@@ -1,0 +1,23 @@
+@import "../style/variables";
+
+.content{
+
+}
+
+.fully{
+  height:100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  .head{
+    flex: 0 1 auto;
+  }
+  .body{
+    flex: 0 1 auto;
+    a{
+      color: @color-primary-link-text;
+    }
+    a:hover{
+      color: @color-primary-link-text-hover;
+    }
+  }
+}

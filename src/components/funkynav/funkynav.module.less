@@ -1,5 +1,33 @@
-.tester{
+@import "../../../src/style/variables";
+
+.fnav{
   a{
     margin: 5px;
+  }
+}
+
+
+.trigger{
+  visibility: hidden;
+}
+.linkbox{
+  display: flex;
+  flex-flow: row nowrap;
+  a{
+    margin: 5px;
+  }
+}
+
+@media @media-small {
+  .trigger{
+    visibility: visible;
+  }
+  .linkbox{
+    flex-flow: column nowrap;
+    position: fixed;
+    height: 100vh;
+    width: 75vw;
+    top:0;
+    left:0;
   }
 }

@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/markhoward.me",
   siteMetadata: {
     title: `markhoward.me`,
     description: `$$$`,
@@ -11,7 +10,10 @@ module.exports = {
       options: {
         javascriptEnabled: true,
         modifyVars: {
-          'primary-color': '#BADA55'
+          'color-primary-background': '#e9f1d0',
+          'color-primary-text': '#1d1d19',
+          'color-secondary-background': '#bada55',
+          'color-secondary-text': '#f8f8f6'
         }
       }
     },
@@ -37,11 +39,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `markhoward.me`,
+        short_name: `markhoward`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
